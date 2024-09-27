@@ -10,7 +10,7 @@ function FormularioPersona({ personaId }) {
   useEffect(() => {
     if (personaId) {
       // Obtener la persona si se está editando
-      const fetchPersona = async () => {
+      const fetchPersona = async () => { 
         try {
           const data = await getPersonaById(personaId);
           form.setFieldsValue({
