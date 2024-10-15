@@ -1,0 +1,34 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #001529;
+  padding: 0 20px;
+}
+
+.user-info {
+  color: #fff;
+  margin-right: 10px;
+  font-size: 18px; /* Move font size here for consistency */
+}
+
+.site-layout-content {
+  padding: 24px;
+  min-height: 280px;
+  background: #fff;
+}
+
+.avatar {
+  cursor: pointer;
+  background-color: transparent; /* Make the background transparent */
+  border: 2px solid white; /* Keep the white border */
+  border-radius: 50%; /* Ensure it remains circular */
+  padding: 2px; /* Add some padding around the Avatar */
+}
+
+.menu {
+  position: absolute;
+  right: 0;
+  top: 100%; /* Adjust position to appear below the Avatar */
+  z-index: 1000; /* Ensure it appears above other elements */
+}

@@ -1,0 +1,37 @@
+.login-container {
+  display: flex;
+  height: 100vh;
+}
+
+.login-image {
+  flex: 1;
+  background-image: url('../../assets/images/cachorro-perro-mascota.webp');
+  background-size: cover;
+  background-position: center;
+  filter: blur(5px);
+}
+
+.login-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: white;
+}
+
+.shop-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+.ant-form {
+  width: 100%;
+  max-width: 300px;
+}
